@@ -16,3 +16,5 @@ pip install -r requirement.txt
 ### Step 4: check the list
 
 pip list
+
+mlflow ui --backend-store-uri sqlite:///mlflow.db
