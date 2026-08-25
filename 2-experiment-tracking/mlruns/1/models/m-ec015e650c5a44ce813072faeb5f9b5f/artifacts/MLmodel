@@ -1,0 +1,22 @@
+artifact_path: /workspaces/MLOPS-Time-prediction/2-experiment-tracking/mlruns/1/models/m-ec015e650c5a44ce813072faeb5f9b5f/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.25
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+mlflow_version: 3.1.4
+model_id: m-ec015e650c5a44ce813072faeb5f9b5f
+model_size_bytes: 8239414
+model_uuid: m-ec015e650c5a44ce813072faeb5f9b5f
+prompts: null
+run_id: 5c504d2598ae423f8f51561625889a6a
+utc_time_created: '2026-08-25 13:05:16.958562'
